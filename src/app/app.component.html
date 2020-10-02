@@ -1,0 +1,14 @@
+<body>
+  <div class="row" style="
+    float: right;
+    width: 101%;
+    background: black;
+    height: 50px;
+    margin-top: 5px;">
+    <div class="ml-auto me-3" style="float: right;margin-top: 8px;">
+      <label style="color: white; margin-top: 3px;">{{UserName}}</label>
+      <button color="warn" *ngIf="loggedIn" (click)="logout()"
+        style="margin-left: 10px;margin-right: 20px;float: right;">Logout</button>
+    </div>
+  </div>
+</body>
